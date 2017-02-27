@@ -1,0 +1,171 @@
+body {
+    background-image: url("http://dzasv7x7a867v.cloudfront.net/product_photos/35099871/THE_20LIFE_20EDIT_20-_20CLOSET_20AND_20WARDROBE_20-_20BLACK_202_original.jpg");
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    width: 20%;    
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+}
+
+html, body{
+  margin: 0;
+  height: 100%;
+  padding: 0;
+}
+
+h1 a{
+  text-decoration: none;
+  color: white;
+}
+
+
+
+.sidenav {
+    height: 100%;
+    width: 20%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    #background-color: #ffffff;
+    padding-top: 32px;
+    float: left;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 30px;
+    color: #000000;
+    display: block;
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    background-color: #b3cbf2
+}
+
+li b {
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+li b:hover {
+    background-color: #b3cbf2;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.main{
+  height: 100%;
+  margin-left: 180px;
+  border-left: 1px solid gray;
+  padding: 1em;
+  overflow: hidden;
+  #background-color: white;
+}
+
+.box{
+  height:400px;
+  width:400px;
+  border: 1px solid black;
+  text-align:center;
+  float: left;
+}
+
+.word{
+  position:relative;
+  left: 80px;
+  height: 30px;
+  width: 200px;
+  font-size: 20px;
+  border: 1px solid black;
+  background-color: #b3cbf2;
+  text-align: center;
+  border-radius: 16px;
+  top: 20px;
+}
+
+.input{
+  position:relative;
+  left:20px;
+  font-size: 30px;
+}
+
+.sub{
+  font-size: 40px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 16px;
+  width: 200px;
+  background-color: #b3cbf2;
+  float: right;
+  position: relative;
+  right: 300px;
+}
+
+p a{
+  text-decoration: none;
+  color: black
+}
+
+.bg{
+  background-color: white;
+  opacity: 0.9;
+  font-weight: bold;
+}
+
+.si{
+  height: 30px;
+  font-size: 30px;
+  border: 1px solid black;
+  background-color: #b3cbf2;
+}
+
+.pic{
+  height: 400px;
+  width: 300px;
+  border: 1px solid black;
+}
+
+h1 a{
+  text-decoration: none;
+  color: white;
+}

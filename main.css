@@ -1,0 +1,46 @@
+body {
+    background-image: url("http://dzasv7x7a867v.cloudfront.net/product_photos/35099871/THE_20LIFE_20EDIT_20-_20CLOSET_20AND_20WARDROBE_20-_20BLACK_202_original.jpg");
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    width: 20%;
+    
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+}
+
+h1 a{
+  text-decoration: none;
+  color: white;
+}
+
+
+
+
+

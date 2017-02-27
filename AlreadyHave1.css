@@ -1,0 +1,139 @@
+body {
+    background-image: url("http://dzasv7x7a867v.cloudfront.net/product_photos/35099871/THE_20LIFE_20EDIT_20-_20CLOSET_20AND_20WARDROBE_20-_20BLACK_202_original.jpg");
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    width: 20%;
+    
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+}
+
+h2 {
+  font-size: 30px;
+  color: white; 
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+#myInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+#myUL li a {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block
+}
+
+#myUL li a.header {
+  background-color: #e2e2e2;
+  cursor: default;
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: #eee;
+}
+
+
+
+.sidenav {
+    height: 100%;
+    width: 20%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    #background-color: #ffffff;
+    padding-top: 32px;
+    float: left;
+    background-color: white;
+    opacity: 0.9;
+    font-weight: bold;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 30px;
+    color: #000000;
+    display: block;
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    background-color: #b3cbf2
+}
+
+.float_right {
+  height: 100%;
+  margin-left: 180px;
+  border-left: 1px solid gray;
+  padding: 1em;
+  overflow: hidden;
+}
+
+html, body{
+  margin: 0;
+  height: 100%;
+  padding: 0;
+}
+
+.MyList{
+  background-color: white;
+  opacity: 0.9;
+  font-weight: bold;
+  color: black;
+  width: 110px;
+}
+
+h1 a{
+  text-decoration: none;
+  color: white;
+}
